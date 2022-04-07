@@ -24,7 +24,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
     // Run your study (just set the correct URL)
     minnoJS(
       canvas,
-      'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.5.6/IAT/qualtrics/skinIATexample.js'
+      'https://cdn.jsdelivr.net/gh/frankluongo/qualtrics-script@main/desktop-qualtrics.js'
     );
 
     // MinnoJS doesn't know about Qualtrics, we pass a function to inject the results into the question
